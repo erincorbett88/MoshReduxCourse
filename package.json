@@ -17,6 +17,7 @@
   "dependencies": {
     "immer": "^10.1.1",
     "immutable": "^5.1.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "redux": "4.0"
   }
 }
