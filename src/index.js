@@ -1,1 +1,9 @@
-console.log("Hello World!");
+recipe = {
+  name: "Spaghetti Bolognese",
+  ingredients: ["egg", "salt"]
+}
+
+const newRecipe = {
+  ...recipe,
+  ingredients: [...recipe.ingredients, "cream"]
+}
